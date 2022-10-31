@@ -1,0 +1,71 @@
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: powderblue;
+    display: flex;
+    margin: 0;
+}
+
+.visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-content: flex-start;
+    transform: scale(.5);
+    transform-origin: center top;
+}
+
+.interact{
+    position: absolute;
+    width: 50%;
+    right: 20px;
+    top: 400px;
+    
+    text-align: center;
+    font-size: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#koala {
+    position: absolute;
+    bottom:0;
+    left: 0;
+
+}
+
+
+#fruit-display{
+    font-weight: bold;
+    font-size: 200%;
+
+    display: flex;
+    justify-content: center;
+}
+#countdown{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#fruitInput{
+    padding: 15px;
+    font-size: 1.5 rem;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
